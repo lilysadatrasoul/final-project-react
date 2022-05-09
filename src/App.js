@@ -13,26 +13,16 @@ function App() {
   return (
 
 <BrowserRouter>
-
 <Navbar/>
-{/* <Home/> */}
+<Home/>
     <Routes>
-
-          <Route path={"/user/home"} element={<Home />}/>
-          <Route path={"/user/AdSearch"} element={<AdSearch />} />
-          <Route path={"/user/About"} element={<About />}/>
-          <Route path={"/login"} element={<Login />} />
-          <Route path={"/Sing up"} element={<SingUp />} />
-
-
-
-    </Routes>
-
-   
-   
-</BrowserRouter>
-
-    
+          <Route path={"/user/home"} element={<Home/>}/>
+          <Route path={"/user/AdSearch"} element={<AdSearch/>}/>
+          <Route path={"/user/About"} element={<About/>}/>
+          <Route path={"/login"} element={<Login/>}/>
+          <Route path={"/Sing up"} element={<SingUp/>}/>
+    </Routes>  
+</BrowserRouter>  
   );
 }
 

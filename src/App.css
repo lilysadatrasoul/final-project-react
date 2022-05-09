@@ -4,10 +4,19 @@
 .navbar a{
     font-size: 18px;
 }
+#inputState{
+    width: 300px;
+}
+#selectState{
+    left: 100px;  
+}
 .hero input {
    width: 300px;
-    background-color: rgb(0, 255, 17);
-}
-.hero text-center{
+    background-color:white;
     left: 100px;
+}
+#card-img-overlay{
+    left: 600px;
+    top: 150px;
+    border-radius: ;
 }
