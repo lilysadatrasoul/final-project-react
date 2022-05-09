@@ -7,9 +7,9 @@ export default function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <Link className="navbar-brand" to="/user/Home">
                         <img className="logo  me-4 ms-5" src={logo} alt=""></img>
-                    </a>
+                    </Link>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -22,29 +22,29 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
                             <li className="nav-item me-5">
-                                <link className="nav-link active "  to="/user/Home">
+                                <Link className="nav-link active "  to="/user/Home">
                                     Home
-                                </link>
+                                </Link>
                             </li>
                             <li className="nav-item me-5 ">
-                                <link className="nav-link" href="/user/AdSearch">
+                                <Link className="nav-link" to="/user/AdSearch">
                                     Advance search
-                                </link>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                 <link className="nav-link" href="/user/About">
+                                 <Link className="nav-link" to="/user/About">
                                     About
-                                </link>
+                                </Link>
                             </li>
                         </ul>
-                        <form className="d-flex">
+                        <div className="d-flex button">
                             <button className="btn btn-primary me-4" type="submit">
                                 Login
                             </button>
                             <button className="btn btn-primary" type="submit">
                                 Signup
                             </button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </nav>
