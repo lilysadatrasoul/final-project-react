@@ -1,7 +1,9 @@
-import React from 'react'
+
+// import React, { useState } from "react";
 import pizza from "../assets/images/pizza-barbecue.jpg";
 
 export default function Form() {
+    
     return (
         <div className='hero'>
             <div className="card ">

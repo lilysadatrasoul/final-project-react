@@ -38,12 +38,16 @@ export default function Navbar() {
                             </li>
                         </ul>
                         <div className="d-flex button">
-                            <button className="btn btn-primary me-4" type="submit">
-                                Login
-                            </button>
-                            <button className="btn btn-primary" type="submit">
-                                Signup
-                            </button>
+                             <Link className="nav-link" to="/login">
+                                    <button className="btn btn-primary me-4" type="submit">
+                                       Login
+                                   </button>
+                             </Link>
+                             <Link className="nav-link" to="/Singup">
+                                    <button className="btn btn-primary me-4" type="submit">
+                                    Signup
+                                   </button>
+                             </Link>
                         </div>
                     </div>
                 </div>
