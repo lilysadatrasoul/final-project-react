@@ -7,16 +7,18 @@
 #inputState{
     width: 300px;
 }
-#selectState{
-    left: 100px;  
-}
+
 .hero input {
    width: 300px;
     background-color:white;
     left: 100px;
 }
 #card-img-overlay{
-    left: 500px;
+    left: 300px;
     top: 200px;
-    border-radius: ;
+   width: 1000px;
+}
+.pro-container{
+height: 10px;
+
 }
